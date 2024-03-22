@@ -1,0 +1,22 @@
+ @if (Student) {
+  <div class="card">
+    <div class="card-img">
+        <img src="https://dl.dropbox.com/s/u3j25jx9tkaruap/Webp.net-resizeimage.jpg?raw=1">
+    </div>
+    <div class="desc">
+        <h6 class="primary-text m-3 fs-3">Name:{{Student.name}}</h6>
+        <h6 class="primary-text m-3 fs-3">Age:{{Student.age}}</h6>
+        <h6 class="primary-text m-3 fs-3">Email:{{Student.email}}</h6>
+        <h6 class="primary-text m-3 fs-3">Phone:{{Student.phone}}</h6>
+    </div>
+  </div>
+}@else{
+  <div class="card ">
+    <div class="card-img">
+        <img src="https://dl.dropbox.com/s/u3j25jx9tkaruap/Webp.net-resizeimage.jpg?raw=1">
+    </div>
+    <div class="desc">
+        <h6 class="primary-text">Loading...</h6>
+    </div>
+  </div>
+}

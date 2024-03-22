@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    input{
+        font-size: 15pt;
+    }
+        /* incase of validation */
+    input:valid+p{
+       display: none;
+    }
+    input:valid{
+       border: 1px solid rgb(162, 162, 162);
+       display: block;
+       margin-bottom: 10px;
+    }
+    /* incase of non validation */
+    input:invalid{
+       border: 1px solid red;
+       display: block;
+    }
+    input:invalid+p{
+       display: block;  
+       margin: 2px;
+       color: grey;
+    }
+
+    </style>
+</head>
+<body>
+    <form action="">
+        <h1>change email address</h1>
+        <input type="text" name="uname" placeholder="Username" required pattern="[a-zA-z]{3}">
+        <p>the required user name may only be a char</p>
+        <input type="email" name="email" placeholder="Email" required pattern="^[a-zA-Z]+[0-9]*(.|-|_)?[a-zA-Z]*\@123.com$">
+        <p>the required email may include @ and char</p>
+        <input type="button" name="btn"  value="change" >
+    </form>
+   
+   
+    
+</body>
+</html>

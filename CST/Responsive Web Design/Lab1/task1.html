@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    #container1{
+        background-color:rgb(200, 157, 240);
+        display: flex;
+        justify-content: space-around;
+        /* padding: 5px; */
+        margin-bottom: 10px;
+        flex-wrap: wrap;
+    }
+   
+    #container2{
+        /* background-color:rgb(200, 157, 240); */
+        display: flex;
+        /* gap: 5px; */
+        /* padding: 5px; */
+        flex-wrap: wrap;
+        
+   
+    }
+    #container2>div{
+        border: 2px black solid;
+        /* padding: 2px; */
+        width:740px;
+        /* height: 100px; */
+        text-align: center;  
+        /* position: relative; */
+     }
+
+     footer{
+        background-color: aqua;
+        /* position: absolute; */
+        /* top: 80px;
+        left:320px; */
+        width:100%;
+        
+     }
+
+    </style>
+</head>
+<body>
+    
+    <div id="container1">
+        <div id="child11">Home</div>
+        <div id="child12">About</div>
+        <div id="child13">Services</div>
+        <div id="child14">Contact</div>
+        
+    </div>
+
+
+     <div id="container2"> 
+        <div id="child21">
+            <p>this is a flex item</p>
+            <footer>footer</footer>
+       </div>
+       <div id="child21">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ducimus facilis eligendi nam illum sunt officia deleniti. Laboriosam consectetur esse ipsum aliquid tempora fugiat. Quo qui repellat facilis consequuntur omnis.</p>
+            <footer>footer</footer>
+      </div>
+</div>
+    
+
+
+
+    
+</body>
+</html> 
+
+
+<!-- <div id="container2"> 
+         <div id="child21">this is a flex item
+        </div>
+
+        <div id="child22">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab facere magni incidunt laborum labore eius dolor iure blanditiis quis doloribus ut fugiat, aperiam voluptatem dolore maxime laudantium similique! Mollitia, veritatis.</div>
+    </div> --> 
+
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container1{
+            background-color:rgb(200, 157, 240);
+            display: flex;
+            justify-content: space-around;
+            padding: 5px;
+            margin-bottom: 10px;
+            flex-wrap: wrap;
+        }
+    
+     #container2 {
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+    flex-wrap: wrap;
+    }
+
+    #container2>div {
+        border: 2px black solid;
+        padding: 2px;
+        width: 740px;
+        height: 100px;
+        text-align: center;
+        position: relative;
+        display: flex;
+        flex-direction: column; /* Added this to make child elements stack vertically */
+    }
+
+    footer {
+        background-color: aqua; 
+         align-self: flex-end; /* Align the footer to the end of the container */
+         margin-top: auto; /* Push the footer to the bottom */
+         width: 100%; /* Make the width of the footer 100% */
+     }
+    </style>
+</head>
+<body> 
+    <div id="container1">
+        <div id="child11">Home</div>
+        <div id="child12">About</div>
+        <div id="child13">Services</div>
+        <div id="child14">Contact</div>
+        
+    </div>
+
+    <div id="container2"> 
+        <div id="child21">
+            <p>this is a flex item</p>
+            <footer>footer</footer>
+       </div>
+
+       <div id="child22">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ducimus facilis eligendi nam illum sunt officia deleniti. Laboriosam consectetur esse ipsum aliquid tempora fugiat. Quo qui repellat facilis consequuntur omnis.</p>
+            <footer>footer</footer>
+      </div>
+</div>
+
+</body>
+</html>
+     -->

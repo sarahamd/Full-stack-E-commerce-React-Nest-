@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <video src="video/frozen.mp4" width="500"></video>
+    <br>
+    <input type="range" id="TimeShow" step="0.01" value="0" min="0" max="10">
+    <label id="show"></label>
+    <br>
+    <input type="button" onclick="play()" value="play">
+    <input type="button" onclick="stop()" value="stop">
+    <input type="button" onclick="back10()" value="<<">
+    <input type="button" onclick="back5()" value="<">
+    <input type="button" onclick="forward5()" value=">">
+    <input type="button" onclick="forward10()" value=">>">
+
+    <input type="range" id="volume" value="0"  onclick="volume()" min="0" max="1" step="0.1" >
+    <input type="button" id="switch" onclick="switchmute()" value="mute">
+    <br>
+    <label for="speed">speed</label>
+    <input type="range" onclick="speed()" id="speed" min="0" max="10" value="0"  step="2">
+    
+    <script src="script1.js"></script> 
+ 
+</body>
+</html>

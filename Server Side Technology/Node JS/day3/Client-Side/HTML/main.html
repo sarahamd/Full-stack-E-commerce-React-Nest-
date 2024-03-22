@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../Style/Style.css">
+    <link href="../Icons/favicon.ico" rel="icon" type="image/vnd.microsoft.icon">
+    <link href="../Style/Style.css" rel="icon" type="image/vnd.microsoft.icon">
+</head>
+
+<body>
+    <div>
+        <form method="post" >
+            <label for="UName">User Name:</label>
+            <input id="UName"type="text" name="UserName" placeholder="Name" required pattern="[a-zA-z]{3-{}}">
+            <p>the Name should contain only letters ,Enter your name again" ,"mariam"</p>
+            <br>
+            <label for="UMob">User Mobile:</label>
+            <input id="UMob" type="text" name="UserMobile" placeholder="Mobile" required pattern="^(010|012|011)\d{8}$">
+            <p>the Mobile should contain only digits ,Enter your Mobile again" ,"01112797471"</p>
+            <br>
+            <label for="UEmail">User Email:</label>
+            <input id="UEmail"type="email" name="UserEmail" placeholder="Email" required pattern="^[a-zA-Z]+[0-9]*(.|-|_)?[a-zA-Z]*\@gmail.com$">
+            <p>the Email should contain letters or digits ,Enter  your Email again" ,"mar25@gmail.com"</p>
+            <br>
+            <label for="UAddress">User Address:</label>
+            <input id="UAddress"type="text" name="UserAddress" placeholder="Address"required >
+            <div id="btn_id">
+                <input id="btn" type="submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

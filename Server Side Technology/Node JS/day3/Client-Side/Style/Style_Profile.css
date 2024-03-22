@@ -1,0 +1,21 @@
+
+div{
+    text-align: center;
+    width: 800px;
+    background-color: #450383;
+    padding: 20px;
+    border-radius: 15px;
+    margin: auto;
+    color: #f5f2f8;
+    transition: all 0.3s ease-in-out 0s;
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div:hover{
+    /* border: 1px solid #fff; */
+    box-shadow: 5px 5px 5px #fff;
+}
+body{
+    background-color: #a97cd2;
+} 

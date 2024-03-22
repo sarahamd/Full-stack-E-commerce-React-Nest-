@@ -1,0 +1,1 @@
+This task requires the creation of two components: a login form and a table. The objective is to store data in the table while adhering to the specified validation constraints. The `AppComponent` is utilized as the parent component to establish the connection between the two child components.

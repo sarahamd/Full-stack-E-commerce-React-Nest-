@@ -1,0 +1,20 @@
+[
+    {
+        "name":"momen",
+        "dept":"SD",
+        "CourseID":[1,2],
+        "id":1
+    },
+    {
+        "name":"mahmoud",
+        "dept":"SD",
+        "CourseID":[3,2,1],
+        "id":2
+    },
+    {
+        "name":"mai",
+        "dept":"ES",
+        "CourseID":[2],
+        "id":3
+    }
+]

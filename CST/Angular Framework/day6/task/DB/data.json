@@ -1,0 +1,116 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "Ahmed",
+      "age": 20,
+      "email": "ahmed@gmail.com",
+      "phone": "1111111111"
+    },
+    {
+      "name": "Batot",
+      "age": "20",
+      "email": "batot@gmail.com",
+      "phone": "123456789",
+      "id": "5"
+    },
+    {
+      "id": "5bf9",
+      "name": "KOKO",
+      "age": "22",
+      "email": "koko@gmail.com",
+      "phone": "66666666666666"
+    },
+    {
+      "id": "94d9",
+      "name": "mariam",
+      "age": "200",
+      "email": "ma2225265@gmail.com",
+      "phone": "+12797471"
+    },
+    {
+      "id": "6a3b",
+      "name": "omar",
+      "age": "25",
+      "email": "ma2225265@gmail.com",
+      "phone": "+12797471"
+    },
+    {
+      "id": "89e2",
+      "name": "koko",
+      "age": "25",
+      "email": "ma45@gmail.com",
+      "phone": "01112797471"
+    },
+    {
+      "id": "d230",
+      "name": "koko",
+      "age": "25",
+      "email": "ma45@gmail.com",
+      "phone": "01112797471"
+    },
+    {
+      "id": "8de7",
+      "name": "asma",
+      "age": "26",
+      "email": "ma45@gmail.com",
+      "phone": "01112797471"
+    },
+    {
+      "id": "daa1",
+      "name": "mohamed",
+      "age": "25",
+      "email": "ma45@gmail.com",
+      "phone": "01112797471"
+    },
+    {
+      "id": "2d01",
+      "name": "nour",
+      "age": "25",
+      "email": "ma2225265@gmail.com",
+      "phone": "+12797471"
+    },
+    {
+      "id": "31da",
+      "name": "NJVFJD",
+      "age": "44",
+      "email": "ma2225265@gmail.com",
+      "phone": "+12797471"
+    },
+    {
+      "id": "8b83",
+      "name": "kokoOOOOOOOOOOOOOOOOOO",
+      "age": "25",
+      "email": "ma45@gmail.com",
+      "phone": "01112797471"
+    },
+    {
+      "id": "9ebd",
+      "name": "nour",
+      "age": "25",
+      "email": "ma45@gmail.com",
+      "phone": "01112797471"
+    },
+    {
+      "name": "Ssssssssssaraaaaaaaaaaa",
+      "age": "22",
+      "email": "sara@gmail.com",
+      "phone": "222222222",
+      "id": "eb1b"
+    },
+    {
+      "id": "0ef2",
+      "name": "mahmoud",
+      "age": "25",
+      "email": "ma45@gmail.com",
+      "phone": "01112797471"
+    },
+    {
+      "id": "8f36",
+      "name": "kokoOOOOOOOOOOOOOOOOOO",
+      "age": "25",
+      "email": "ma45@gmail.com",
+      "phone": "01112797471"
+    }
+  ]
+}

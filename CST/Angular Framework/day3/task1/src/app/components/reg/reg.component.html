@@ -1,0 +1,36 @@
+<h1>Registeration</h1>
+<div class="form">
+  <div class="element">
+    <label>Name:</label>
+    <input [(ngModel)]="name" type="text">
+    <!-- validation on name -->
+    @if (name&&name.length>=3) {
+        <div style="color: green; font-style: italic;">
+            Name Valid
+        </div>
+    }@else {
+        <div style="color: red;">
+            Name Not Valid
+          </div>
+        } 
+  </div>
+  <div class="element">
+    <label>Age:</label>
+    <input [(ngModel)]="age" type="text">
+    @if (age&& +age<30 &&+age>20) {
+        <div style="color: green ;font-style: italic">
+            Age Valid
+        </div>
+    }@else {
+        <div style="color: red;">
+            Age Not Valid
+            </div>
+    } 
+  </div>
+  
+   @if (age==""||name=="") {
+    <input type="button" value="ADD" (click)="AddStudent()" disabled=true>
+   }@else {
+    <input type="button" value="ADD" (click)="AddStudent()" >
+  } 
+</div>

@@ -1,0 +1,13 @@
+
+ <div class="card m-3">
+  <div class="card-img">
+      <!-- <img src="https://dl.dropbox.com/s/u3j25jx9tkaruap/Webp.net-resizeimage.jpg?raw=1"> -->
+      <img src="assets/images/avatar.avif">
+  </div>
+  <div class="desc">
+      <h6 class="primary-text">Name:{{oneStudent.name}}</h6>
+      <h6 class="secondary-text m-3" routerLink="/students/{{oneStudent.id}}">Email:{{oneStudent.email}}</h6>
+  </div>
+  <button class="primary-text" routerLink="/update/{{oneStudent.id}}">update</button>
+</div>
+

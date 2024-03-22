@@ -1,0 +1,16 @@
+[   
+    {   
+        "name":"JS",
+        "totalDegree":99,
+        "id":1
+    },
+    {
+        "name":"html",
+        "totalDegree":50,
+        "id":2
+    },
+    {   "name":"css",
+        "totalDegree":55,
+        "id":3
+    }
+]
