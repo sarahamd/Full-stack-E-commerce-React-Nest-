@@ -10,15 +10,13 @@ E-Commerce Hub serves as your gateway to a seamless online shopping experience, 
 
 - **Automated Interaction**: Harnessing the power of automation, E-Commerce Hub utilizes AI to detect negative comments and forwards relevant information to the admin and clients via email for swift resolution.
 
-- **Secure Transactions**: Integrated with Stripe, E-Commerce Hub ensures secure payment processing for seamless transactions.
+- **Secure Transactions**: Integrated with <b>Stripe</b>, E-Commerce Hub ensures secure payment processing for seamless transactions.
 
 - **Personalized Experience**: Clients can curate their favorite products, keeping track of items they love for future purchases.
 
-- **Email Verification**: Upholding security standards, E-Commerce Hub implements email verification during signup to safeguard user accounts.
+- **Email Verification**: Upholding security standards, E-Commerce Hub implements <b> email verification</b> during signup to safeguard user accounts.
 
-- **Advanced Search**: Find exactly what you're looking for with our advanced search functionality, allowing users to filter products by category, price range, and more.
-
-- **Order Tracking**: Keep tabs on your orders every step of the way with real-time order tracking, ensuring transparency and peace of mind.
+- **Advanced Search**: Find exactly what you're looking for with our advanced search functionality,<b> allowing users to filter products by category, price range, and more</b>.
 
 - **Multi-Language Support**: E-Commerce Hub is accessible to users worldwide with support for multiple languages, enhancing accessibility and inclusivity.
 
