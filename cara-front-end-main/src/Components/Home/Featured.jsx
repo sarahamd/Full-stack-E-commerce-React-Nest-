@@ -67,13 +67,23 @@ export default memo(function Featured() {
           }}
           extensions={{ AutoScroll }}
         >
-          {data1.map((prd) => {
-            return (
-              <SplideSlide key={prd.id}>
-                <Card product={prd}></Card>
-              </SplideSlide>
-            );
-          })}
+       {!data1 ? (
+  // Spinner while waiting for data
+  <div className="flex justify-center items-center h-40">
+    <div className="animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-primary"></div>
+  </div>
+) : data1.length === 0 ? (
+  // Empty state if no products
+  <p className="text-center text-muted-foreground">No products found.</p>
+) : (
+  // Render data
+  data1.map((prd) => (
+    <SplideSlide key={prd.id}>
+      <Card product={prd} />
+    </SplideSlide>
+  ))
+)}
+
         </Splide>
       </div>
     </div>
