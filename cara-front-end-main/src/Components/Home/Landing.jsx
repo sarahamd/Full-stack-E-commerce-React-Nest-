@@ -6,7 +6,7 @@ export default memo(function Landing() {
   const [t, i18n] = useTranslation();
 
   return (
-    <div id='landing' className=" section-p1" dir={`${i18n.language}`==='en'?"ltr":"rtl"}>
+    <div id='landing' className=" section-p1 h-75" dir={`${i18n.language}`==='en'?"ltr":"rtl"}>
       <div className="row align-items-center">
         <div className="col-md-6 col-sm-12 my-4">
           <h4>{t('Trade-in offer')}</h4>
@@ -20,7 +20,7 @@ export default memo(function Landing() {
           </Link>
         </div>
         <div className="col-md-6 col-sm-12 d-flex justify-content-center">
-          <img className='w-50' src="assets/img/15.WebP" alt="landingImage" />
+          <img className='w-100' src="assets/img/15.WebP" alt="landingImage" />
         </div>
       </div>
     </div>
